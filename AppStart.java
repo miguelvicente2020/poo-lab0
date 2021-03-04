@@ -10,11 +10,11 @@ public class AppStart {
         int ordem = 1;
         Size Medium = Size.MEDIUM;
         
-        System.out.println("Name: " + Medium.toString() );
-        System.out.println("tostring(): " + Medium.getDescription());
-        System.out.println("Ordem: " + ordem);
-        System.out.println("Valor Minimo: " + Medium.getMinValue());
-        System.out.println("Valor Maximo: " + Medium.getMaxValue());
-        System.out.println("Codigo: " + Medium.getCode());
+        System.out.println("Name         : " + Medium.toString() );
+        System.out.println("tostring()   : " + Medium.getDescription());
+        System.out.println("Ordem        : " + ordem);
+        System.out.println("Valor Minimo : " + Medium.getMinValue());
+        System.out.println("Valor Maximo : " + Medium.getMaxValue());
+        System.out.println("Codigo       : " + Medium.getCode());
     } 
 }
